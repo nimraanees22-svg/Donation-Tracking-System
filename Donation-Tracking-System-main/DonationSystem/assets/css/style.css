@@ -1,0 +1,184 @@
+/* =========================
+   GLOBAL
+========================= */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+
+.sidebar {
+    position: fixed;
+    width: 260px;
+    height: 100vh;
+    background: #0f172a;
+    color: white;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-bottom: 50px;
+}
+
+/* LOGO */
+
+.sidebar h2 {
+    text-align: center;
+    padding: 20px 10px;
+    margin: 0;
+    font-size: 30px;
+    border-bottom: 1px solid #1e293b;
+}
+
+/* LINKS */
+
+.sidebar a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #cbd5e1;
+    text-decoration: none;
+    padding: 14px 20px;
+    transition: 0.3s;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(255,255,255,0.03);
+}
+
+/* ICONS */
+
+.sidebar a i {
+    width: 20px;
+    text-align: center;
+}
+
+/* HOVER */
+
+.sidebar a:hover {
+    background: #1e293b;
+    color: white;
+    padding-left: 25px;
+}
+
+/* SCROLLBAR */
+
+.sidebar::-webkit-scrollbar {
+    width: 6px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: #0f172a;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background: #475569;
+    border-radius: 10px;
+}
+
+/* =========================
+   MAIN CONTENT
+========================= */
+
+.main-content {
+    margin-left: 260px;
+    padding: 20px;
+}
+
+/* =========================
+   DASHBOARD CARDS
+========================= */
+
+.card-box {
+    border-radius: 12px;
+    padding: 20px;
+    color: white;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.card-box h5 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.card-box h2 {
+    margin-top: 12px;
+    font-size: 32px;
+}
+
+/* COLORS */
+
+.bg-blue {
+    background: #2563eb;
+}
+
+.bg-green {
+    background: #16a34a;
+}
+
+.bg-orange {
+    background: #ea580c;
+}
+
+.bg-red {
+    background: #dc2626;
+}
+
+/* =========================
+   TABLE CONTAINER
+========================= */
+
+.table-container,
+.card {
+    border-radius: 12px !important;
+    border: none !important;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.08);
+}
+
+/* =========================
+   TABLE
+========================= */
+
+.table th,
+.table td {
+    vertical-align: middle;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+.btn {
+    border-radius: 8px;
+}
+
+/* =========================
+   FORMS
+========================= */
+
+.form-control,
+.form-select {
+    border-radius: 8px;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media(max-width: 768px) {
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .main-content {
+        margin-left: 0;
+    }
+}
