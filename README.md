@@ -1,23 +1,23 @@
 # Donation Tracking System
 
-Ek behtareen web-based system jo donations, donors aur beneficiaries ka record rakhne ke liye banaya gaya hai. 
+A robust, web-based Donation Tracking System designed to efficiently manage donors, donations, and beneficiary records.
 
-## Project ki Khasiyat (Features)
-- **Donor Management:** Donors ka pura record maintain karna.
-- **Donation Tracking:** Kitni donation aayi aur kahan gayi, sab ka hisaab.
-- **Beneficiary Records:** Jin logon ko madad mili, unka data track karna.
-- **Easy Interface:** User-friendly aur responsive design.
+## Key Features
+- **Donor Management:** Seamlessly record and manage donor profiles.
+- **Donation Tracking:** Real-time tracking of all incoming donations and their allocation.
+- **Beneficiary Records:** Maintain detailed information about beneficiaries and aid distribution.
+- **User-Friendly Interface:** Responsive and intuitive design built with Bootstrap.
 
-## Tech Stack (Is mein kya use hua hai)
-- **Frontend:** HTML, CSS, Bootstrap, JavaScript
+## Tech Stack
+- **Frontend:** HTML5, CSS3, Bootstrap, JavaScript
 - **Backend:** PHP
 - **Database:** MySQL
 
-## Kaise Run Karein?
-1. XAMPP server download aur install karein.
-2. Is project ke folder ko `htdocs` mein copy karein.
-3. `database.sql` file ko phpMyAdmin mein import karein.
-4. Browser mein `localhost/[project_folder_name]` likh kar run karein.
+## How to Run
+1. Install and run a local server (like XAMPP or WAMP).
+2. Clone or download this repository and place the project folder into your `htdocs` directory.
+3. Open `phpMyAdmin`, create a new database, and import the `database.sql` file provided in the repository.
+4. Open your web browser and navigate to `http://localhost/[Donation-Tracking-System]`.
 
 ---
-*Developed by [Apna Naam Yahan Likhein]*
+*Developed by [Your Name]*
